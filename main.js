@@ -46,20 +46,20 @@ function render() {
 	tasks.forEach(task => {
 		if(task.done) {
 			html += `
-			<div id="${task.id}">
-				<button data-id="${task.id}">Done</button>
-				<button data-id="${task.id}">Delete</button>
-				<s>${task.text}</s>
+			<div class="task-wrapper" id="${task.id}">
+				<button class="btn" id="done-btn" data-id="${task.id}">Done</button>
+				<button class="btn" id="delete-btn" data-id="${task.id}">Delete</button>
+				<span><s>${task.text}</s></span>
 			</div>
 		`;
 		return;
 		}
 
 		html += `
-			<div id="${task.id}">
-				<button data-id="${task.id}">Done</button>
-				<button data-id="${task.id}">Delete</button>
-				${task.text}
+			<div class="task-wrapper" id="${task.id}">
+				<button class="btn" id="done-btn" data-id="${task.id}">Done</button>
+				<button class="btn" id="delete-btn" data-id="${task.id}">Delete</button>
+				<span>${task.text}</span>
 			</div>
 		`;
 	})

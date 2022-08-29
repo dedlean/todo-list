@@ -1,0 +1,81 @@
+body {
+	font-family: "Open Sans", "Helvetica", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.input {
+	padding: 10px 30px;
+	border-radius: 10px 0 0 10px;
+	border: 0;
+	background: #f0f0f0;
+}
+
+.input:hover {
+	background: #e0e0e0;
+}
+
+.input:focus {
+	background: #d0d0d0;
+	color: #fff;
+	outline: 0;
+}
+
+.btn {
+	background: #3a94ff;
+	border-radius: 10px;
+	color: #fff;
+	border: 0;
+	padding: 10px 30px;
+}
+
+.btn:hover {
+	background: #2a84ef;
+}
+
+.js-add-btn {
+	border-radius: 0px 10px 10px 0px;
+}
+
+#delete-btn {
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+.header-bg-wrapper {
+	background: #3A94FF;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+.header {
+	text-align: center;
+	color: #fff;
+}
+
+.create-new-task {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.js-tasks {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.task-wrapper {
+	width: 315.92px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.task-wrapper span {
+	display: block;
+	margin-left: auto;
+}
